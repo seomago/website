@@ -1,7 +1,7 @@
 ---
 reviewers:
 - seomago
-title: Compilando desde codigo fuente
+title: Compilando desde código fuente
 content_template: templates/concept
 card:
   name: download
@@ -9,7 +9,7 @@ card:
   title: Building a release
 ---
 {{% capture overview %}}
-Se puede o bien crear una release desde el codigo fuente o bien descargar una version pre-built. Si no se pretende hacer un desarrollo de Kubernetes en si mismo, se sugiere usar una version pre-built de la release actual, que se puede encontrar en  [Release Notes](/docs/setup/release/notes/).
+Se puede o bien crear una release desde el código fuente o bien descargar una version pre-built. Si no se pretende hacer un desarrollo de Kubernetes en sí mismo, se sugiere usar una version pre-built de la release actual, que se puede encontrar en [Release Notes](/docs/setup/release/notes/).
 
 El codigo fuente de Kubernetes se puede descargar desde el repositorio [kubernetes/kubernetes](https://github.com/kubernetes/kubernetes) .
 {{% /capture %}}
@@ -17,7 +17,7 @@ El codigo fuente de Kubernetes se puede descargar desde el repositorio [kubernet
 {{% capture body %}}
 ## Compilar desde codigo fuente
 
-Si simplemente estas compiladondo una release desde el codigo fuente, no es necesario hacer una configuracion completa del entorno golang ya que toda la compilacion se hace desde un contenedor Docker.
+Si simplemente estas compiladondo una release desde el código fuente, no es necesario hacer una configuración completa del entorno golang ya que toda la compilación se realiza desde un contenedor Docker.
 
 Compilar es facil.
 
@@ -27,7 +27,7 @@ cd kubernetes
 make release
 ```
 
-Para mas detalles del proceso de compilar una release, visita la carpeta kubernetes/kubernetes [`build`](http://releases.k8s.io/{{< param "githubbranch" >}}/build/) 
+Para más detalles sobre el proceso de compilar una release, visita la carpeta kubernetes/kubernetes [`build`](http://releases.k8s.io/{{< param "githubbranch" >}}/build/) 
 
 
 
