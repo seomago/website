@@ -9,13 +9,13 @@ card:
   title: Compilando desde código fuente
 ---
 {{% capture overview %}}
-Se puede o bien crear una release desde el código fuente o bien descargar una version pre-built. Si no se pretende hacer un desarrollo de Kubernetes en sí mismo, se sugiere usar una version pre-built de la release actual, que se puede encontrar en [Release Notes](/docs/setup/release/notes/).
+Se puede o bien crear una release desde el código fuente o bien descargar una versión pre-built. Si no se pretende hacer un desarrollo de Kubernetes en sí mismo, se sugiere usar una version pre-built de la release actual, que se puede encontrar en [Release Notes](/docs/setup/release/notes/).
 
 El código fuente de Kubernetes se puede descargar desde el repositorio [kubernetes/kubernetes](https://github.com/kubernetes/kubernetes) .
 {{% /capture %}}
 
 {{% capture body %}}
-## Compilar desde codigo fuente
+## Compilar desde código fuente
 
 Si simplemente estas compilando una release desde el código fuente, no es necesario hacer una configuración completa del entorno golang ya que toda la compilación se realiza desde un contenedor Docker.
 
