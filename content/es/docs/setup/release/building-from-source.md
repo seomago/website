@@ -6,12 +6,12 @@ content_template: templates/concept
 card:
   name: download
   weight: 20
-  title: Building a release
+  title: Compilando desde código fuente
 ---
 {{% capture overview %}}
 Se puede o bien crear una release desde el código fuente o bien descargar una version pre-built. Si no se pretende hacer un desarrollo de Kubernetes en sí mismo, se sugiere usar una version pre-built de la release actual, que se puede encontrar en [Release Notes](/docs/setup/release/notes/).
 
-El codigo fuente de Kubernetes se puede descargar desde el repositorio [kubernetes/kubernetes](https://github.com/kubernetes/kubernetes) .
+El código fuente de Kubernetes se puede descargar desde el repositorio [kubernetes/kubernetes](https://github.com/kubernetes/kubernetes) .
 {{% /capture %}}
 
 {{% capture body %}}
