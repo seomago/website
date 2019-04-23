@@ -19,7 +19,7 @@ El codigo fuente de Kubernetes se puede descargar desde el repositorio [kubernet
 
 Si simplemente estas compilando una release desde el código fuente, no es necesario hacer una configuración completa del entorno golang ya que toda la compilación se realiza desde un contenedor Docker.
 
-Compilar es facil.
+Compilar es fácil.
 
 ```shell
 git clone https://github.com/kubernetes/kubernetes.git
